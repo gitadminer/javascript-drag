@@ -1,0 +1,40 @@
+@import "reset.css";
+
+html, body {
+  height: 100%;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.loginBoxMark {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 998;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
+.loginBox {
+  position: fixed;
+  z-index: 999;
+  width: 390px;
+  height: 500px;
+  background: #ffffff;
+
+  h3 {
+    height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 50px;
+    background: #eeeeee;
+    cursor: move;
+    border-bottom: 1px solid #cccccc;
+  }
+}
+
+
